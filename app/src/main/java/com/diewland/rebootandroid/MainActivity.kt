@@ -12,5 +12,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_reboot).setOnClickListener {
             Runtime.getRuntime().exec(arrayOf("reboot"))
         }
+
+        findViewById<Button>(R.id.btn_reboot_su).setOnClickListener {
+            SuUtil.exec("reboot")
+        }
     }
 }
