@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.btn_reboot_su).setOnClickListener {
             // android 4.4.2 --- worked
-            // android 7.1 --- worked
             SuUtil.exec("reboot")
         }
     }

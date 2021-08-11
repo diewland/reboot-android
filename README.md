@@ -10,4 +10,3 @@ SuUtil.exec("reboot")
 ```
 
 * Android 4.4.2 --- WORKED
-* Android 7.1 --- WORKED
