@@ -5,6 +5,9 @@ import java.io.BufferedReader
 import java.io.DataOutputStream
 import java.io.InputStreamReader
 
+// ADD THIS PERMISSION TO AndroidManifest.xml
+// <uses-permission android:name="android.permission.INTERNET" />
+
 object SuUtil {
 
     private const val TAG = "OTA_SU_UTIL"
