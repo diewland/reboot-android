@@ -10,12 +10,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<Button>(R.id.btn_reboot).setOnClickListener {
-            // android 7.1
+            // android 7.1 --- worked
             Runtime.getRuntime().exec(arrayOf("reboot"))
         }
 
         findViewById<Button>(R.id.btn_reboot_su).setOnClickListener {
-            // android 4.4.2
+            // android 4.4.2 --- worked
+            // android 7.1 --- worked
             SuUtil.exec("reboot")
         }
     }
